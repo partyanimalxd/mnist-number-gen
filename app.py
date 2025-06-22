@@ -92,7 +92,7 @@ with col2:
                     image_np,
                     caption=f"Generated {st.session_state.last_generated_digit}",
                     width=128,
-                    use_column_width='auto'
+                    use_container_width='auto'
                 )
     else:
         st.info("Select a digit and click 'Generate Images' to start.")
